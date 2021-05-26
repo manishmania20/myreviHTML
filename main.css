@@ -1,0 +1,50 @@
+h1,h3{
+    color: blue;
+}
+
+h1{
+    background-color: aliceblue;
+}
+
+h2{
+    color: #000000;
+    background-color: #35eb44;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    font-family: Courier;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 15px;
+    margin: 40px 60px 40px 60px;
+    /*margin: auto is used in the case of div, class or container of some sort */
+    padding: 20px 10px 20px 10px;
+    border: 20px solid red;
+    outline-color: #35eb44;
+    outline-width: 12px;
+    outline-style: dotted;
+}
+
+ul{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #35eb44;
+    border-left: 12px solid red;
+    border-right: 12px solid red;
+}
+
+li{
+    list-style-type: square;
+    font-family: Helvetica;
+}
+
+span{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
